@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from '../logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/lib/Button';
 
@@ -12,12 +12,16 @@ import Button from 'react-bootstrap/lib/Button';
 
 
 class App extends Component {
-
+constructor(){
+  super();
+  this.spaceDog = "Saturn";
+}
   render() {
 
     return (
       <div>
-        {this.spaceDawgz}
+        <img src="https://previews.123rf.com/images/xochicalco/xochicalco0906/xochicalco090600004/4981410-Retro-Space-Dog-flies-by-planet-Saturn--Stock-Vector.jpg" alt="Saturn dog" />
+        <h2>{this.spaceDog}</h2>
       </div>
     )  
   }

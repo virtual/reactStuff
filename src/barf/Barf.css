@@ -6,3 +6,24 @@ directory (you should probably call the directory 'barf'). */
 any of the html you return in your render method should be dictated there. 
 add some classes to your html in your barf component and set some styles
 on those classes in this file */
+h1 { color:#f00}
+
+.lead {
+  font-size:24px;
+  color:green;
+}
+
+.emph {
+  font-size:30px;
+  color:purple;
+}
+
+img {
+  max-width: 100%;
+}
+
+.counter {
+  padding: 20px;
+  font-size: 50px;
+  border: 1px solid #ccc;
+}
