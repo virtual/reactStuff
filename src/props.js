@@ -9,9 +9,10 @@ class Star extends Component {
   constructor(){
     super();
   }
+
   render(){
     return(
-      <p>🌠 Super stahhhh! 🌠</p>
+      <p>🌠 Super {this.props.horse} stahhhh! 🌠</p>
     )
   }
 }
@@ -24,7 +25,7 @@ class Venus extends Component {
     return(
       <div>
         🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌🌌
-        <Star/>
+        <Star horse="orange"/>
 
       </div>
     )

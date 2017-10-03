@@ -81,18 +81,7 @@ class Menu extends Component {
   
 }
 
-class ItemList extends Component {
-  constructor(){
-    super();
-    //console.log(JSON.stringify(this.props));
-    //this.props.value;
-  }
-  render(){
-    return(
-      <li>{this.value}</li>
-    )
-  }
-}
+ 
 export default JSProblems;
 //1)write a javascript function that gets the number of days from now
 //until the end of class. Write the number of days in your react html.

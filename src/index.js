@@ -6,11 +6,12 @@ import App from "./app/App.js";
 import JSProblems from "./ex1.js";
 import Venus from "./props.js";
 import Table from "./ex3.js";
-
+import Navvy from "./navbar2.js";
+import 'bootstrap/dist/css/bootstrap.css';
 //Lets build yer first react component! Woo hoo!!!!!
 //At it's essence a react 'component' is simply a
 //function that has a render method that returns the following:
-//(
+//( 
 //  <div>
 //  </div>
 //)
@@ -28,6 +29,7 @@ class Unicorns extends Component {
   render(){
     return (
     <div>
+      <Navvy/> 
       <h1>Space Unicorns</h1>
       <Venus />
       <Barf />

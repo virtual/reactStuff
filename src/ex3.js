@@ -32,7 +32,7 @@ class Row extends Component {
 
   }
   componentDidMount() {
-    console.log(this.props.array);
+    //console.log(this.props.array);
 
   }
 
@@ -56,7 +56,7 @@ class Cell extends Component {
     super();
   }
   componentDidMount() {
-    console.log(this.props.array);
+    //console.log(this.props.array);
 
   }
    render(){

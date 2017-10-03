@@ -19,7 +19,10 @@ h1 { color:#f00}
 }
 
 img {
-  max-width: 100%;
+  width: 80%;
+  margin: 10px 10%; 
+  max-width: 200px;
+  height: auto;
 }
 
 .counter {
