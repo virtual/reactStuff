@@ -32,7 +32,6 @@ export default class Tacos extends Component {
     ];
   }
   render(){
-    console.log(this.tacos);
     let tacoHTML = [];
     this.tacos.forEach((e)=>{
       tacoHTML.push(<TacoProfile taco={e}></TacoProfile>)
@@ -52,7 +51,7 @@ class TacoProfile extends Component{
     super();
   }
   componentDidMount() {
-    console.log(this.props.taco);
+    //console.log(this.props.taco);
   }
   render(){
     return (
