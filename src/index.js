@@ -8,6 +8,7 @@ import Venus from "./props.js";
 import Tacos from "./tacos.js";
 import Table from "./ex3.js";
 import Navvy from "./navbar2.js";
+import Button from "./button";
 import 'bootstrap/dist/css/bootstrap.css';
 //Lets build yer first react component! Woo hoo!!!!!
 //At it's essence a react 'component' is simply a
@@ -38,6 +39,7 @@ class Unicorns extends Component {
       <App />
       <JSProblems />
       <Tacos/>
+      <Button/>
     </div>
     )
   }

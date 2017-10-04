@@ -30,3 +30,7 @@ img {
   font-size: 50px;
   border: 1px solid #ccc;
 }
+
+.spaced-out{
+  margin: 30px;
+}
