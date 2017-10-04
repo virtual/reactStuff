@@ -5,6 +5,7 @@ import Barf from "./barf/Barf.js";
 import App from "./app/App.js";
 import JSProblems from "./ex1.js";
 import Venus from "./props.js";
+import Tacos from "./tacos.js";
 import Table from "./ex3.js";
 import Navvy from "./navbar2.js";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -36,6 +37,7 @@ class Unicorns extends Component {
       <Table/>
       <App />
       <JSProblems />
+      <Tacos/>
     </div>
     )
   }
