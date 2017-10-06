@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 
-=======
->>>>>>> 53f337108e0a025159da19a4315d1437c31c9e74
 
 //api key 4 l8tr = 3d6b633422451393e953dab4052ea0e4
 //url 4 l8tr  - http://api.openweathermap.org/data/2.5/weather?q=Bozeman&appid= 
 
-<<<<<<< HEAD
 export default class WeatherComponent extends React.Component{
   
   constructor(){
@@ -52,24 +48,11 @@ export default class WeatherComponent extends React.Component{
         
         {html}
 
-=======
-class WeatherComponent extends React.Component{
-  
-  constructor(){
-    super();
-  }
-
-  render(){
-    return(
-      <div>
-        this is your weather component
->>>>>>> 53f337108e0a025159da19a4315d1437c31c9e74
       </div>   
       )
     }
 }
 
-<<<<<<< HEAD
 class CityWeather extends Component{
   constructor() {
     super();
@@ -94,9 +77,6 @@ class CityWeather extends Component{
     )
   }
 }
-=======
-export default WeatherComponent;
->>>>>>> 53f337108e0a025159da19a4315d1437c31c9e74
 
 //First, make a componentDidMount method on your Weather class
 
