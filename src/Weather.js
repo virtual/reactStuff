@@ -22,7 +22,7 @@ export default class WeatherComponent extends React.Component{
     const fetchURL = weatherAPI + apiKey;
     fetch(fetchURL).then((res)=>{
       return res.json();
-    }).then((data)=>{
+    }).then((data)=>{ // arrow function keeps reference of this to call (this.state)
       this.setState({
         weather: {
           city: data.name,
